@@ -9,7 +9,7 @@ int main()
 			for (int k = 1;k <= i;k++)
 			{
 				a = i * k;
-				cout << k << 'x' << i << '=' << a << "  ";
+				cout << k << "×" << i << '=' << a << '\t';
 			}
 			cout << endl;
 		}
