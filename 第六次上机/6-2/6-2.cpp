@@ -6,17 +6,17 @@ int mylen(char* p)
     while (p[len] != '\0')
         len++;
     return len;
-}
-void mysort(char *p[], int n)
+ }
+void mysort(char* p[], int n)
 {
     char* t;
-    for(int i=0;i<n-1;i++)
-        for (int j = i+1;j < n;j++)
-            if (mylen(p[i]) >= mylen(p[j]))
+    for (int i = 0; i < n - 1; i++)
+        for (int j = 0; j < n - 1 - i; j++)          
+            if (mylen(p[j]) > mylen(p[j + 1]))     
             {
-                t = p[i];
-                p[i] = p[j];
-                p[j] = t;
+                t = p[j];
+                p[j] = p[j + 1];
+                p[j + 1] = t;
             }
 }
 int main()
