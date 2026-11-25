@@ -12,7 +12,7 @@ int main()
 		sign *= -1;
 		i += 2;
 	} while (t > 1e-9);
-	cout << setprecision(55) << pai * 4.0 << endl;
+	cout << setprecision(14) << pai * 4.0 << endl;
 	system("pause");
 	return 0;
 }

@@ -3,5 +3,5 @@
     <Platform Name="x64" />
     <Platform Name="x86" />
   </Configurations>
-  <Project Path="quipai.vcxproj" />
+  <Project Path="quipai.vcxproj" Id="d39396f4-fbdb-4a1b-bd24-3674f910a3b6" />
 </Solution>
